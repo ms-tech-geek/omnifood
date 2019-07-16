@@ -25,6 +25,16 @@ header {
     height: 100vh;
 }
 
+h1 {
+    margin:0;
+    color:#ffffff;
+    size:200%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
 .hero-text-box {
     position: absolute;
     width: 1140px;
@@ -33,6 +43,49 @@ header {
     transform: translate(-50%,-50%);
 }
 
-h1 {
-    margin:0;
+.hero-title{
+    margin: 20px 0px;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2, border 0.2 color 0.2s;
+
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+
+.btn:hover,
+.btn:active {
+    background-color: #cf6317;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #cf6317;
+    color: #ffffff;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #cf6317;
+    color: #ffffff;
 }
