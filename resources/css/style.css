@@ -229,9 +229,16 @@ header {
 .meal-photo {
     width: 100%;
     margin: 0;
+    overflow: hidden;
 }
 
 .meal-photo img {
     width: 100%;
     height: auto;
+    transform: scale(1.25);
+    transition: transform 0.5s;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.03);
 }
